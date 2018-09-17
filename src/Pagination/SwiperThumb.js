@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import { TouchableOpacity, Image } from 'react-native';
+import React, { Component } from "react";
+import { TouchableOpacity, Image } from "react-native";
+import { appColor } from "../../../../style/Styles";
 
 class SwiperThumb extends Component {
   goToSlide() {
@@ -8,13 +9,21 @@ class SwiperThumb extends Component {
 
   render() {
     return (
-      <TouchableOpacity
-        style={s.container}
-        onPress={this.goToSlide.bind(this)}
-      >
+      <TouchableOpacity style={s.container} onPress={this.goToSlide.bind(this)}>
         <Image
-          style={{ ...s.thumb, opacity: this.props.active ? 1 : 0.6 }}
-          source={this.props.data[this.props.index].thumb||this.props.data[this.props.index].image}
+          style={{
+            ...s.thumb,
+            opacity: this.props.active ? 1 : 0.6,
+            borderColor: this.props.active
+              ? appColor.colorPrimary
+              : "lightgrey",
+            borderWidth: 1
+          }}
+          source={ {
+            uri:
+              this.props.data[this.props.index].thumbnail ||
+              this.props.data[this.props.index].url
+          }}
         />
       </TouchableOpacity>
     );
@@ -23,14 +32,16 @@ class SwiperThumb extends Component {
 
 const s = {
   container: {
-    width: 64,
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: 64,
+    width: 70,
+    padding: 3,
+    justifyContent: "center",
+    alignItems: "center",
+    height: 70
   },
   thumb: {
     width: 64,
     height: 64,
+    margin: 5,
   }
 };
 

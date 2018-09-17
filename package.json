@@ -1,11 +1,41 @@
 {
-  "name": "react-native-photo-gallery",
-  "version": "0.1.10",
-  "description": "A simple gallery component",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "react-native-photo-gallery@^0.1.10",
+  "_id": "react-native-photo-gallery@0.1.10",
+  "_inBundle": false,
+  "_integrity": "sha512-tLRyaIwWUvPIW6jtV1q2vd6oAiqcZoBxpC6lS18yDQC78UTdGXbbA2g02HuIVwdmgmRZ7YaUpJPd1VSQk0X/7Q==",
+  "_location": "/react-native-photo-gallery",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-photo-gallery@^0.1.10",
+    "name": "react-native-photo-gallery",
+    "escapedName": "react-native-photo-gallery",
+    "rawSpec": "^0.1.10",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.10"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-photo-gallery/-/react-native-photo-gallery-0.1.10.tgz",
+  "_shasum": "c6098c88dec8b658f62824563388f426887149fc",
+  "_spec": "react-native-photo-gallery@^0.1.10",
+  "_where": "/Users/karnikasingh/Desktop/ReactNativeProjects/MagentoBaseApp",
+  "author": {
+    "name": "Michaël Villeneuve"
+  },
+  "bugs": {
+    "url": "https://github.com/Michaelvilleneuve/react-native-photo-gallery/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react-native-photo-view": "1.5.2"
+  },
+  "deprecated": false,
+  "description": "A simple gallery component",
+  "homepage": "https://github.com/Michaelvilleneuve/react-native-photo-gallery#readme",
   "keywords": [
     "react-native",
     "gallery",
@@ -15,14 +45,15 @@
     "zoom",
     "pagination"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/Snapp-FidMe/react-native-photo-gallery"
-  },
-  "author": "Michaël Villeneuve",
   "license": "MIT",
-  "dependencies": {
-    "prop-types": "^15.5.10",
-    "react-native-photo-view": "1.5.2"
-  }
+  "main": "index.js",
+  "name": "react-native-photo-gallery",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michaelvilleneuve/react-native-photo-gallery.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.10"
 }

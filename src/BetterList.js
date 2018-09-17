@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { ListView } from 'react-native';
+import React, { Component } from "react";
+import { ListView } from "react-native";
 
 export default class BetterList extends Component {
   constructor(props) {
@@ -21,10 +21,11 @@ export default class BetterList extends Component {
   render() {
     return (
       <ListView
-       {...this.props}
-       ref={sc => this.pagination = sc}
-       initialListSize={this.props.initialPaginationSize}
-       dataSource={this.state.dataSource}
+        {...this.props}
+        showsHorizontalScrollIndicator={false}
+        ref={sc => (this.pagination = sc)}
+        initialListSize={this.props.initialPaginationSize}
+        dataSource={this.state.dataSource}
       />
     );
   }
