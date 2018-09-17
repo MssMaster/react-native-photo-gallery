@@ -9,11 +9,11 @@ Tested without stutters with 1000+ images.
 
 ## Getting started
 
-`$ npm install react-native-photo-gallery --save`
+`$ npm install MssMaster/react-native-photo-gallery --save`
 
 This library depends on react-native-photo-view to display images on Android. So you must also do the following :
 
-`$ react-native link react-native-photo-view`
+`$ react-native link MssMaster/react-native-photo-view`
 
 ## Usage
 ```javascript
