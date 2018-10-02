@@ -9,8 +9,8 @@ import {
   TouchableWithoutFeedback,
   TouchableHighlight
 } from "react-native";
-import renderIfWithView from "../../../Utils/RenderIfComponent/RenderIfWithEmptyView";
-import { CustomNavigatorAction } from "../../../Utils/NavigatorComponent/CustomNavigator";
+import renderIfWithView from "../../../utils/RenderIfComponent/RenderIfWithEmptyView";
+import { CustomNavigatorAction } from "../../../utils/NavigatorComponent/CustomNavigator";
 const styles = {
   slideC: {
     width: Dimensions.get("window").width - 30,
