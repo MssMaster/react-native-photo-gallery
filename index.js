@@ -7,7 +7,7 @@ import {
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Pagination, Slide } from "./src";
-import renderIfWithView from "../../Utils/RenderIfComponent/RenderIfWithEmptyView";
+import renderIfWithView from "../../utils/RenderIfComponent/RenderIfWithEmptyView";
 
 export default class Gallery extends Component {
   constructor(props) {
